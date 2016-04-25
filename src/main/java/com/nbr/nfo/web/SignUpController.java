@@ -5,16 +5,13 @@
  */
 package com.nbr.nfo.web;
 
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import ua.nbr.imb.db.model.entity.User;
-import ua.nbr.imb.db.model.repo.UserRepository;
+import com.nbr.nfo.db.model.entity.User;
+import com.nbr.nfo.db.model.repo.UserRepository;
 
 import javax.servlet.http.HttpSession;
 

@@ -13,7 +13,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
-import ua.nbr.imb.db.model.repo.UserRepository;
+import com.nbr.nfo.db.model.repo.UserRepository;
 
 import javax.servlet.http.HttpSession;
 import javax.ws.rs.Path;
