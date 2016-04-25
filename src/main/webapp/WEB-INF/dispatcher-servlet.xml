@@ -10,7 +10,7 @@
 
     <mvc:annotation-driven/>
 
-    <mvc:resources mapping="/res/**" location="/WEB-INF/public/res/" cache-period="10" /> <!--60000-->
+    <mvc:resources mapping="/res/**" location="/WEB-INF/res/" cache-period="10" /> <!--60000-->
 
     <mvc:view-resolvers>
         <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"
